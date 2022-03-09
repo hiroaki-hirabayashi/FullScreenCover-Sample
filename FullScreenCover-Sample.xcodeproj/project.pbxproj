@@ -16,6 +16,8 @@
 		F41F602327D8DED5009172AA /* FullScreenCover_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F602227D8DED5009172AA /* FullScreenCover_SampleTests.swift */; };
 		F41F602D27D8DED5009172AA /* FullScreenCover_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F602C27D8DED5009172AA /* FullScreenCover_SampleUITests.swift */; };
 		F41F602F27D8DED5009172AA /* FullScreenCover_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F602E27D8DED5009172AA /* FullScreenCover_SampleUITestsLaunchTests.swift */; };
+		F41F603C27D8E072009172AA /* ViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F603B27D8E072009172AA /* ViewControllerHolder.swift */; };
+		F41F603E27D8E470009172AA /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F603D27D8E46F009172AA /* FullScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		F41F602827D8DED5009172AA /* FullScreenCover-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FullScreenCover-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41F602C27D8DED5009172AA /* FullScreenCover_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_SampleUITests.swift; sourceTree = "<group>"; };
 		F41F602E27D8DED5009172AA /* FullScreenCover_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F41F603B27D8E072009172AA /* ViewControllerHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHolder.swift; sourceTree = "<group>"; };
+		F41F603D27D8E46F009172AA /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				F41F601527D8DED4009172AA /* Persistence.swift */,
 				F41F601727D8DED4009172AA /* FullScreenCover_Sample.xcdatamodeld */,
 				F41F601227D8DED4009172AA /* Preview Content */,
+				F41F603B27D8E072009172AA /* ViewControllerHolder.swift */,
+				F41F603D27D8E46F009172AA /* FullScreenView.swift */,
 			);
 			path = "FullScreenCover-Sample";
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F41F601627D8DED4009172AA /* Persistence.swift in Sources */,
+				F41F603C27D8E072009172AA /* ViewControllerHolder.swift in Sources */,
 				F41F600F27D8DED1009172AA /* ContentView.swift in Sources */,
 				F41F601927D8DED4009172AA /* FullScreenCover_Sample.xcdatamodeld in Sources */,
 				F41F600D27D8DED1009172AA /* FullScreenCover_SampleApp.swift in Sources */,
+				F41F603E27D8E470009172AA /* FullScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
